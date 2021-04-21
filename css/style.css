@@ -1,0 +1,857 @@
+
+body {
+   /* background-image: url(/pics/AgriculturalEqup/Irrigation%20System.jpg);
+	 */ background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#background {
+	
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 10px;
+	width: 1200px;
+}
+/*#sidebar {
+	background: #6699ff;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+	width: 230px;
+	
+	
+}
+#sidebar a.logo {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#sidebar a.logo img {
+	border: 0;
+	display: block;
+}
+#sidebar div {
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+#sidebar > ul {
+	padding: 18px 10px 0;
+}
+#sidebar > ul li {
+	height: 20px;
+	margin: 0 0 28px;
+	text-align: justify;
+}
+#sidebar > ul li a {
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	
+	height: 22px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: auto;
+}
+#sidebar > ul li a:hover {
+	background-color:#2d4801;
+	color: #ebcdd4;
+	
+}
+#sidebar > ul li.selected span {
+	background: url(../images/maxresdefault.jpg) no-repeat bottom left;
+    
+
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+#sidebar > ul li.selected a {
+	
+	color: #ebcdd4;
+	display: inline-block;
+	padding: 0 20px 0 0;
+}
+#sidebar .contact {
+	background: #f56cbf;
+}
+#sidebar .contact ul li {
+	padding: 15px 10px;
+	text-align: center;
+}
+#sidebar .contact > ul {
+	padding: 0 0 10px;
+}
+#sidebar .contact ul ul li {
+	color: #000;
+	line-height: 18px;
+	padding: 0;
+}
+#sidebar .contact ul li span {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	margin: 0 auto 10px;
+	padding: 0;
+	text-indent: -99999px;
+	width: 21px;
+}
+#sidebar .contact ul li.address span {
+	background-position: -8px -198px;
+	height: 22px;
+}
+#sidebar .contact ul li.contactInfo span {
+	background-position: -8px -240px;
+	height: 19px;
+}
+#sidebar .contact ul li.mail span {
+	background-position: -8px -279px;
+	height: 17px;
+}
+#sidebar .contact ul ul li a {
+	color: #7d7c7c;
+	text-decoration: none;
+}
+#sidebar .contact ul ul li a:hover {
+	color: #000;
+}
+#sidebar .connect {
+	background: ##202958;
+	padding: 20px 0;
+}
+#sidebar .connect b {
+	color: #fff;
+	display: block;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#sidebar .connect p {
+	color: white;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0;
+	padding: 0 10px;
+	text-align: center;
+}
+#sidebar .connect ul {
+	overflow: hidden;
+	padding: 17px 21px 0 29px;
+}
+#sidebar .connect ul li {
+	float: left;
+	margin: 0 8px 0 0;
+}
+#sidebar .connect ul li a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	height: 37px;
+	text-indent: -99999px;
+	width: 37px;
+}
+#sidebar .connect ul #facebook a {
+	background-position: 0 0;
+}
+#sidebar .connect ul #facebook a:hover {
+	background-position: -42px 0;
+}
+#sidebar .connect ul #twitter a {
+	background-position: 0 -47px;
+}
+#sidebar .connect ul #twitter a:hover {
+	background-position: -42px -47px;
+}
+#sidebar .connect ul #googleplus a {
+	background-position: 0 -94px;
+}
+#sidebar .connect ul #googleplus a:hover {
+	background-position: -42px -94px;
+}
+#sidebar .connect ul #connectemail a {
+	background-position: 0 -141px;
+}
+#sidebar .connect ul #connectemail a:hover {
+	background-position: -42px -141px;
+}
+#sidebar .newsletter {
+	padding: 14px 0 18px;
+         border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+#content {
+	background: #fff;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 950px;
+}
+#content #header {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 938px;
+}
+#content #header h1 {
+	color: #fff;
+	top:40px;
+	font-family: Georgia, serif;
+	font-size: 75px;
+	font-style: italic;
+	font-weight: normal;
+	left: 43px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-transform: uppercase;
+	z-index: 3;
+}
+#content #header img {
+	display: block;
+}
+#content #header div {
+	background: url(../images/bg-transparent.png) repeat-x left bottom;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 700px;
+	z-index: 3;
+}
+#content #header div i {
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: Georgia, serif;
+	font-size: 40px;
+	line-height: 32px;
+	margin: 0;
+	padding: 225px 0 0 54px;
+	width: 372px;
+}
+#content #header div i .more {
+	background: url(../images/icons.png) no-repeat 0 -355px;
+	color: #eee778;
+	font-size: 24px;
+	margin: 0;
+	padding: 0 0 0 35px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#content #header div i .more:hover {
+	text-decoration: underline;
+}
+#content #header div img {
+	display: block;
+	float: right;
+}
+#content #body {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 24px;
+}
+#content #body .header {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#content #body .header div {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 350px;
+}
+#content #body .header div img {
+	display: block;
+}
+#content #body .header div div, #content #body .header div i {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 3;
+}
+#content #body .header div div {
+	background: url(../images/bg-transparent2.png) repeat;
+	border-radius: 10px;
+	bottom: 20px;
+	left: 0;
+	padding: 20px;
+	width: 195px;
+}
+#content #body .header div div p, #content #body .header div div b {
+	color: #fff;
+	font-family: Georgia, serif;
+	font-size: 17px;
+	font-style: italic;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+#content #body .header div div p {
+	padding: 15px 0;
+}
+#content #body .header div div b {
+	font-size: 26px;
+	font-weight: normal;
+}
+#content #body .header div div a {
+	background: url(../images/icons.png) no-repeat 0 -383px;
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 18px;
+	margin: 0;
+	padding: 0 0 0 27px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#content #body .header div div a:hover {
+	text-decoration: underline;
+}
+#content #body .header div i {
+	background: url(../images/bg-transparent3.png) repeat;
+	border-radius: 10px;
+	bottom: 8px;
+	color: #fff;
+	font-family: Georgia, serif;
+	font-size: 32px;
+	left: 22px;
+	margin: 0;
+	padding: 5px 15px;
+	width: 276px;
+}
+#content #body .header div i a {
+	background: url(../images/icons.png) no-repeat 0 -400px;
+	color: #eee778;
+	font-size: 18px;
+	margin: 0;
+	padding: 0 0 0 27px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#content #body .header div i a:hover {
+	text-decoration: underline;
+}
+#content #body .body {
+	margin: 0;
+	padding: 0;
+}
+#content #body p {
+	color: #7c7c7c;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+#content #body p a {
+	color: #7c7c7c;
+	
+}
+#content #body p a:hover {
+	color: #b84e64;
+}
+#content #body .body ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 27px 0;
+}
+#content #body .body ul li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 40px;
+	padding: 0;
+	text-align: center;
+	width: 180px;
+}
+#content #body .body ul li a.figure {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#content #body .body ul li a.figure:hover {
+	opacity: 0.8;
+}
+#content #body .body ul li a.figure img {
+	border: 0;
+	display: block;
+}
+#content #body .body ul li h3 {
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+
+	text-align: center;
+	text-transform: capitalize;
+}
+#content #body .body ul li p {
+	text-align: center;
+}
+#content #body .body ul li a.more {
+	color: #b84e64;
+	font-size: 10px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body .body ul li a.more:hover {
+	text-decoration: underline;
+}*/
+#footer {
+
+  
+         background: #b84e64;
+	
+}
+
+
+#content #body > h3 {
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0;
+	padding: 25px 0 20px 30px;
+	text-transform: capitalize;
+}
+#content #body > p {
+	padding: 0 80px 0 40px;
+}
+#content #body > p span {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#content #body > ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 5px 0;
+}
+#content #body > ul li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	width: 230px;
+}
+#content #body > ul li a.figure {
+	display: block;
+}
+#content #body > ul li a.figure:hover {
+	opacity: 0.8;
+}
+#content #body > ul li a.figure img {
+	border: 0;
+	display: block;
+}
+#content #body > ul li h3 {
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: lighter;
+	
+	text-align: center;
+}
+#content #body > ul li p {
+	text-align: center;
+	padding: 0 25px;
+}
+#content #body > ul li p a {
+	color: #b84e64;
+}
+#content #body > ul li p a:hover {
+	color: #dc2f53;
+}
+#content #body > ul li a.more {
+	color: #b84e64;
+	font-size: 10px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body > ul li a.more:hover {
+	text-decoration: underline;
+}
+#content #body > img {
+	display: block;
+	margin: 20px 0 0 40px;
+	padding: 0;
+}
+#content #body .section {
+	margin: 0;
+	padding: 50px 0 0;
+}
+#content #body .section ul {
+	background: url(../images/border.gif) no-repeat top center;
+	margin: 0;
+	overflow: hidden;
+	padding: 27px 0 15px;
+}
+#content #body .section ul li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 40px;
+	padding: 0;
+	text-align: center;
+	width: 180px;
+}
+#content #body .section ul li a.figure {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#content #body .section ul li a.figure:hover {
+	opacity: 0.8;
+}
+#content #body .section ul li a.figure img {
+	border: 0;
+	display: block;
+}
+#content #body .section ul li h3 {
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0 25px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#content #body .section ul li p {
+	text-align: center;
+}
+#content #body .section ul li a.more {
+	color: #b84e64;
+	font-size: 10px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body .section ul li a.more:hover {
+	text-decoration: underline;
+}
+#content #body .blog {
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 0;
+	width: 400px;
+}
+#content #body .blog div {
+	border-top: 1px solid #e6e6e9;
+	margin: 0;
+	overflow: hidden;
+	padding: 37px 0;
+}
+#content #body .blog div:first-child {
+	border: 0;
+}
+#content #body .blog div h3 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#content #body .blog div h3 a {
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-style: italic;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#content #body .blog div small {
+	color: #b84e64;
+	font-size: 12px;
+	font-style: italic;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#content #body .blog div small a {
+	color: #b84e64;
+	text-decoration: none;
+}
+#content #body .blog div a.comment {
+	color: #b84e64;
+	float: right;
+	font-size: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body .blog a.more {
+	background: url(../images/icons.png) no-repeat 0 -427px;
+	color: #b84e64;
+	font-size: 10px;
+	padding: 0 0 0 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body .blog div h3 a:hover, #content #body .blog div small a:hover, #content #body .blog div a.comment:hover, #content #body .blog a.more:hover {
+	text-decoration: underline;
+}
+#content #body .blog div p {
+	clear: both;
+	padding: 0 0 22px;
+}
+#content #body .blog div img {
+	display: block;
+	margin: 20px 0;
+	padding: 0;
+}
+#content #body .aside {
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 35px 0 0;
+	width: 180px;
+}
+#content #body .aside h3 {
+	border-bottom: 1px solid #99ffcc;
+	border-top: 1px solid #e6e6e9;
+	color: #b84e64;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: normal;
+	height: 53px;
+	line-height: 53px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+#content #body .aside div, #content #body .aside ul {
+	margin: 0;
+	padding: 0;
+}
+#content #body .aside ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#content #body .aside .archive > ul {
+	padding: 22px 0 22px 14px;
+}
+#content #body .aside .archive ul li {
+	background: url(../images/arrow-right.png) no-repeat 0 5px;
+	line-height: 18px;
+	padding: 0 0 0 14px;
+	text-transform: capitalize;
+}
+#content #body .aside .archive ul li.expand {
+	background: url(../images/arrow-down.png) no-repeat 0 5px;
+}
+#content #body .aside .archive ul ul ul li {
+	background: none;
+}
+#content #body .aside .archive ul li a {
+	color: #7d7c7c;
+	text-decoration: none;
+}
+#content #body .aside .archive ul li a:hover {
+	color: #b84e64;
+}
+#content #body .aside .archive ul ul ul li a:hover {
+	color: #b84e64;
+}
+#content #body .aside .popular {
+	text-align: center;
+}
+#content #body .aside .popular ul li {
+	border-top: 1px solid #e6e6e9;
+	padding: 17px 0;
+}
+#content #body .aside .popular ul li:first-child {
+	border: 0;
+}
+#content #body .aside .popular a.figure:hover {
+	opacity: 0.8;
+}
+#content #body .aside .popular a.figure img {
+	border: 0;
+	padding: 0 0 10px;
+}
+#content #body .aside .popular h4 {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+#content #body .aside .popular h4 a {
+	color: #b84e64;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content #body .aside .popular h4 a:hover {
+	color: #dc2f53;
+}
+#content #body .aside .popular small {
+	color: #b84e64;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#content #body .aside .popular p {
+	padding: 10px 0 0;
+	text-align: left;
+}
+#content #body .aside .popular p a {
+	color: #b84e64;
+	text-decoration: none;
+}
+#content #body .aside .popular p a:hover {
+	text-decoration: underline;
+}
+#content #body .aside .featured {
+	height: 314px;
+	position: relative;
+}
+#content #body .aside .featured a {
+	display: block;
+	left: -18px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 44px;
+}
+#content #body .aside .featured a:hover {
+	opacity: 0.8;
+}
+#content #body .aside .featured a img {
+	border: 0;
+	display: block;
+}
+#content #body form {
+	margin: 0;
+	padding: 35px 0 0 50px;
+	width: 488px;
+}
+#content #body form label {
+	display: block;
+	margin: 0 0 20px;
+	overflow: hidden;
+	padding: 0;
+}
+#content #body form label span {
+	color: #7d7c7c;
+	display: block;
+	font-size: 13px;
+	float: left;
+	height: 31px;   
+	margin: 0;
+	padding: 5px 14px 0 0;
+	text-align: right;
+	text-transform: uppercase;
+	width: 74px;
+}
+#content #body form label input {
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	color: #7d7c7c;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;
+	padding: 0 5px;
+	width: 388px;
+}
+#content #body form label textarea {
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	color: #7d7c7c;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 205px;
+	margin: 0;
+	overflow: auto;
+	padding: 5px;
+	width: 388px;
+}
+#content #body form #submit2 {
+	border: 0;
+	background: url(../images/button-submit.png) no-repeat top left;
+	display: block;
+	height: 37px;
+	margin: 0 0 0 88px;
+	paddoing: 0;
+	width: 101px;
+}
+#footer {
+	         background:red;
+	margin: 0;
+	padding: 20px 0;
+         border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	color: white;
+}
+#footer a {
+	color: magenta;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#footer a:hover {
+	color: #fff;
+}
+#footer ul {
+	display: inline-block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#footer ul li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 24px;
+	padding: 0;
+}
+#footer ul li.selected a {
+	color: #fff;
+}
+#footer p {
+	color: #6e7492;
+	font-size: 12px;
+	float: right;
+	margin: 0 24px 0 0;
+	padding: 0;
+}

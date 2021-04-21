@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /*background-image: url(images/video.jpg);
+    */
+    background-color: darkorange;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+    
+}
+.menu-bar
+{
+    background-color: indigo;
+    text-align: center;
+    
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 128px;
+    margin: 20px;
+    padding: 15px;
+    
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.active,.menu-bar ul li :hover
+{
+    background: cyan;
+    border-radius:3px;
+}
+.menu-bar .fa
+{
+    margin: 8px;
+    
+}
